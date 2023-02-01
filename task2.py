@@ -16,8 +16,8 @@ city = input("Введите город проживания: ")
 mail = input("Введите email: ")
 tel = input("Введите телефон: ")
 
-def my_func(arg1, arg2, arg3, arg4, arg5, arg6):
-    print(f'{arg1} {arg2} {arg3} года рождения, проживает в городе {arg4},\n'
-    f'email: {arg5}, телефон: {arg6}')
+def my_func(name, fam, year, city, mail, tel):
+    print(f'{name} {fam} {year} года рождения, проживает в городе {city},\n'
+    f'email: {mail}, телефон: {tel}')
 
 my_func(name, fam, year, city, mail, tel)
