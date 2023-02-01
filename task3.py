@@ -11,8 +11,8 @@ num2 = int(input("Введите второе число: "))
 num3 = int(input("Введите третье число: "))
 
 # Решение с использованием функции sort()
-def my_func_sort(arg1, arg2, arg3):
-    a = [arg1, arg2, arg3]
+def my_func_sort(*args):
+    a = [*args]
     a.sort(reverse=True)
     print(a[0] + a[1])
 
